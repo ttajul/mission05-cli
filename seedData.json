@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Vintage Guitar",
+        "description": "A beautiful vintage guitar with a rich sound. Excellent condition.",
+        "start_price": 100,
+        "reserve_price": 150
+    },
+    {
+        "title": "Designer Dress",
+        "description": "Stunning designer dress, worn only once. Perfect for a special occasion.",
+        "start_price": 50,
+        "reserve_price": 75
+    },
+    {
+        "title": "Antique Clock",
+        "description": "Antique clock in working order. A charming piece for any home.",
+        "start_price": 200,
+        "reserve_price": 250
+    }
+]
