@@ -3,10 +3,7 @@ const mongoose = require('mongoose');
 // Connect to MongoDB
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb://localhost:27017/auction_app', {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
+        await mongoose.connect('mongodb://localhost:27017/auction_app'); // Remove the deprecated options
         console.log('MongoDB Connected...');
     } catch (error) {
         console.error('MongoDB Connection Error:', error.message);
